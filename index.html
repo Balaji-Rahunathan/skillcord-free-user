@@ -27,7 +27,7 @@
   <link rel="stylesheet" href="style.css">
 
   <!-- fontawsom -->
-
+<link rel="stylesheet" href="./fancy box/jquery.fancybox.min.css">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
 </head>
@@ -62,7 +62,7 @@
             </li>
 
             <li class="nav-item shop">
-              <a class="btn btn-primary try" href="https://skillcord.com/app/signup" role="button">Try now</a>
+              <a class="btn btn-primary try" href="https://skillcord.com/app/signup" target="_blank" role="button">Try now</a>
             </li>
 
           </ul>
@@ -91,7 +91,8 @@
             <p class="para2">Watch demo</p>
 
             <div class="play">
-              <a href="#"><i class="fas fa-play"></i></a>
+              <a data-fancybox href="https://skillcord.com/videos/skillcord-demo.mp4"><i class="fas fa-play"></i></a>
+              <!-- <a href="#"></a> -->
             </div>
 
           </div>
@@ -153,7 +154,10 @@
         </div>
       </div>
       <div class="signn">
-        <button type="button" class="btn btn-primary">Watch demo</button>
+        
+        <a data-fancybox href="https://skillcord.com/videos/skillcord-demo.mp4">
+          <button type="button" class="btn btn-primary">Watch demo</button>
+      </a>
       </div>
 
     </div>
@@ -217,8 +221,8 @@
               <a href=""><p>About</p></a>
               <a href=""><p>Support</p></a>
               <a href=""><p>Contact</p></a>
-              <a href="https://www.skillcord.com/"><p>Skillcord</p></a>
-              <a href="https://skillcord.com/i360/"><p>Skillcord i360</p></a>
+              <a href="https://www.skillcord.com/" target="_blank"><p>Skillcord</p></a>
+              <a href="https://skillcord.com/i360/" target="_blank"><p>Skillcord i360</p></a>
              
             </div>
           </div>
@@ -276,7 +280,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+  <script src="./fancy box/jquery.fancybox.min.js"></script>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>

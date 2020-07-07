@@ -43,7 +43,7 @@ body {
 /* ----------- */
 header {
   position: relative;
-  z-index: 1000000;
+  z-index: 10;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -221,9 +221,14 @@ header ul li .try {
   background-color: #F6FDFF;
   padding: 80px 0;
 }
-
-#touch .imo {}
-
+.navbar-light .navbar-nav .nav-link{
+  color:#000000;
+  font-weight:400;
+  margin:10px 0px
+}
+.shop{
+  margin:10px 0 20px 0
+}
 #touch .imgg {
   background-color: #fff;
   text-align: center;
@@ -456,7 +461,9 @@ header ul li .try {
 
 
 }
-
+.signn a{
+  z-index:1031
+}
 
 
 @media only screen and (max-width: 650px) {
@@ -499,4 +506,24 @@ header ul li .try {
 
 
 
+}
+@media only screen and (max-width:992px){
+  #navbarSupportedContent{
+    position:absolute;
+    z-index:15;
+    left:0%;
+    top:60px;
+    width:100%;
+    background-color: #fff;
+    box-shadow: 0px 13px 25px -12px rgba(0,0,0,0.25);
+  }
+  .navbar ul li{
+    border-top: 1px solid rgba(0,0,0,0.07)
+  }
+  .shop a{
+    margin-top:20px
+  }
+}
+.fancybox-button{
+  transition:0 !important
 }
