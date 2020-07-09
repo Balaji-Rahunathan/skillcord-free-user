@@ -81,7 +81,23 @@ p {
 #home .container .ccx p {
   font-weight: normal;
 }
-
+#home .container .contentBox .ccx .btns{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center
+}
+#home .container .contentBox .ccx .btns .play-container{
+  display:flex;
+  justify-content: space-evenly;
+  max-width:250px;
+  margin:auto;
+  align-items:center;
+  margin:2rem 2.2rem 2rem 0rem
+}
+#home .container .contentBox .ccx .btns .play-container p{
+  margin-top:0.2rem
+}
 .contentBox {
   position: relative;
   display: flex;
@@ -153,7 +169,10 @@ header ul li .try:hover {
 #home {
   margin-bottom: 0;
 }
-
+.jumbotron a #button1{
+  color:#0DDA90;
+  outline:none
+}
 #home .btns button {
   padding: 16px 30px;
   border: 1.5px solid #0DDA90;
@@ -162,8 +181,11 @@ header ul li .try:hover {
   border-radius: 0;
   transition: all .3s ease;
   border-radius: 5px;
+  outline:none
 }
-
+#home .btns button:hover{
+  box-shadow: 2px 3px 18px #0DDA90;
+}
 header ul li .try {
   background-color: #0DDA90;
   border: none;
@@ -222,7 +244,7 @@ header ul li .try {
   padding: 80px 0;
 }
 .navbar-light .navbar-nav .nav-link{
-  color:#000000;
+  color:#fff;
   font-weight:400;
   margin:10px 0px
 }
@@ -502,7 +524,9 @@ header ul li .try {
   border-radius: 5px;
 }
 
-
+#home .container .contentBox .ccx .btns .play-container{
+  margin:2rem 0.5rem 2rem 0rem
+}
 
 
 
@@ -522,6 +546,11 @@ header ul li .try {
   }
   .shop a{
     margin-top:20px
+  }
+  .navbar-light .navbar-nav .nav-link{
+    color:#000000;
+    font-weight:400;
+    margin:10px 0px
   }
 }
 .fancybox-button{
