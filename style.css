@@ -55,8 +55,30 @@ p {
   font-size: 1.15rem;
   color: #0C3653;
 }
+.coming-soon{
+position:absolute;
+background: #0DDA90;
+width:4%;
+height:40%;
+top:25%; 
+ right:0%;
+ z-index:1;
+color:#fff
+}
+.coming{
+  transform: rotate(-90deg);
+position:relative;
+top:60%;
+right:0%;
+/* width:250px; */
+z-index:2
+}
 #head-span{
-  font-size:18px
+  font-size:18px;
+  display:block;
+  width:200px;
+  padding-right:3.35rem
+
 }
 .banner {
   background-image: url(images/back.jpg);
@@ -198,6 +220,7 @@ header ul li .try {
 /* works */
 #works {
   padding: 90px 0;
+  position:relative
 }
 
 #works .heading {
@@ -282,7 +305,7 @@ header ul li .try {
 }
 
 #touch .cont h2 {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 #touch .cont h3 {
@@ -312,14 +335,17 @@ header ul li .try {
   text-decoration: none;
 }
 #footer .logo {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 #footer .logo2 {
   margin-top: 20px;
-  margin-bottom: 55px;
+  margin-bottom: 30px;
 }
-
+#footer .logo3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 #footer h3 {
   font-weight: 500;
   color: #fff;
@@ -457,6 +483,28 @@ header ul li .try {
     text-align: center;
     padding-bottom: 40px;
   }
+  .coming-soon{
+    position:absolute;
+    background: #0DDA90;
+    width:60%;
+    height:5%;
+    top:20%; 
+     left:20%;
+     z-index:1;
+    
+    }
+    .coming{
+      transform: rotate(0deg);
+    position:relative;
+    top:15%;
+    left:5%;
+    /* width:250px; */
+    z-index:2;
+    display:flex;justify-content: center;
+    }
+    .row1{
+      padding-top:2rem
+    }
 }
 
 @media only screen and (max-width: 770px) {
@@ -557,4 +605,14 @@ header ul li .try {
 }
 .fancybox-button{
   transition:0 !important
+}
+@media only screen and (min-width:768px)and(max-width:992px){
+  .coming{
+    transform: rotate(0deg);
+  position:relative;
+  top:15%;
+  left:30%;
+  /* width:250px; */
+  z-index:2
+  }
 }
