@@ -55,7 +55,9 @@ p {
   font-size: 1.15rem;
   color: #0C3653;
 }
-
+#head-span{
+  font-size:18px
+}
 .banner {
   background-image: url(images/back.jpg);
   background-size: cover;
@@ -96,7 +98,7 @@ p {
   margin:2rem 2.2rem 2rem 0rem
 }
 #home .container .contentBox .ccx .btns .play-container p{
-  margin-top:0.2rem
+  margin-top:1rem
 }
 .contentBox {
   position: relative;
